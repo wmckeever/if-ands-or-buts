@@ -12,14 +12,23 @@ After that, use `prompt-sync` to prompt the user for the passcode. If the user g
 
 **Note:** In this assignment, the `node_modules` folder containing the `prompt-sync` dependency does not already exist. To add it to this project, navigate to this repository using the command line then install it using the Node Package Manager with `npm install prompt-sync`.
 
-## `bill-splitter.js`
+## `rock-paper-scissors.js`
 
-You've once again been contracted to write a program, this time for an app that helps two people split a bill at a restaurant evenly.
+Let's play a classic game of rock, paper, scissors!
 
-Write a program called `bill-splitter.js` that prompts the user for how much Person 1 paid, then for how much Person 2 paid. It should then log out the message, 'Person 1 owes $_____' or 'Person 2 owes $_____' depending on who owes who.
+Write a program called 'rock-paper-scissors.js' that takes in two inputs in a row for Player 1 and Player 2.
 
-## Extra Credit: `triple-bill-splitter.js`
+The players can only input "rock", "paper", and "scissors".  Anything else should result in a failure message getting logged to the screen.
+After both players input their options, use console.log() to print the player who emerged victorious.
 
-Write a new program that expands on `bill-splitter.js` this program should be able to split a bill between three people! Once again, prompt the user for how much each person paid. Then, log out messages indicating who needs to pay who. 
+For those who are unfamiliar, rock beats scissors, scissors beats paper, and paper beats rock.  If both players input the same answer, it should result in a draw.
 
-You'll probably need to use a system of equations to solve this!
+An example game
+```
+Player 1, enter "rock", "paper", or "scissors":
+> rock
+Player 2, enter "rock", "paper", or "scissors":
+> paper
+Player 2 wins!
+```
+
