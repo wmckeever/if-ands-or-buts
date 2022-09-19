@@ -6,7 +6,7 @@ console.log(`Player one chose: ${choice1}.`)
 let choice2 = prompt('Player two, please choose rock, paper, or scissors: ');
 console.log(`Player two chose ${choice2}.`)
 
-if (choice1 === "rock" && choice2 === "paper"){
+if (choice1 === "rock" && choice2 === 'paper'){
   console.log('Paper beats Rock. Player Two wins!');
 
 }else if (choice1 === "rock" && choice2 === "scissors"){
