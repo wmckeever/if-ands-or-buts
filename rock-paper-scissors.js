@@ -33,7 +33,7 @@ console.log('Rock beats Scissors, Player One wins!');
   console.log('Rock beates Scissors, Player Two wins!')  
 
 
-}else if(choice1 && choice1 || choice2 && choice2 || choice3 && choice3){
+}else{
   console.log('This game has ended in a draw!')
 
 }
